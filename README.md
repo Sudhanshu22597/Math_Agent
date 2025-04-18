@@ -48,7 +48,7 @@ The Math Agent employs a routing pipeline to determine the best way to answer a 
 2.  **Create a Virtual Environment:**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    venv\Scripts\activate
     ```
 
 3.  **Install Dependencies:**
