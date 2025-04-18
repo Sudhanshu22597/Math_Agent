@@ -111,7 +111,7 @@ Open your web browser and navigate to the local URL provided by Streamlit (usual
 
 *   **Core Logic:** Python
 *   **LLM Interaction:** LangChain, `langchain-google-genai`
-*   **LLM:** Google Gemini (`gemini-1.5-flash`)
+*   **LLM:** Google Gemini (`gemini-2.0`)
 *   **Embeddings:** Google (`text-embedding-004`)
 *   **Vector Store:** FAISS (`faiss-cpu`)
 *   **Web Search:** Tavily (`tavily-python`)
@@ -120,12 +120,3 @@ Open your web browser and navigate to the local URL provided by Streamlit (usual
 *   **Data Handling:** Pandas
 *   **Environment:** `python-dotenv`
 
-## Future Improvements & Considerations
-
-*   **DSPy Integration:** Implement a more sophisticated feedback loop using DSPy for automatic prompt optimization or model fine-tuning based on the logged feedback.
-*   **JEE Bench:** Develop and run a benchmark script using the JEE Bench dataset to quantitatively evaluate the agent's performance on standardized complex problems.
-*   **Robust Web Extraction:** Replace basic BeautifulSoup extraction with more advanced techniques (e.g., libraries like `trafilatura` or LLM-based extraction) to get cleaner, more relevant content from web pages.
-*   **Advanced Guardrails:** Integrate more robust content moderation or safety classifiers for input and output.
-*   **Error Handling:** Improve error handling and fallbacks within the agent's workflow.
-*   **State Management:** Consider using LangGraph for more explicit management of the agent's state during the routing process.
-*   **Deployment:** Package the application for deployment using Docker or platforms like Streamlit Community Cloud, Hugging Face Spaces, etc.
