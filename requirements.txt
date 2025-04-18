@@ -1,0 +1,12 @@
+# /home/-/Desktop/sudhanshu/math_agent/requirements.txt
+streamlit
+python-dotenv
+google-generativeai
+langchain
+langchain-google-genai
+langchain-community
+pandas
+faiss-cpu # Or faiss-gpu if you have CUDA installed
+beautifulsoup4
+requests
+tavily-python # For web search
